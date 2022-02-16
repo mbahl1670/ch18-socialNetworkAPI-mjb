@@ -1,0 +1,23 @@
+{
+  "name": "ch18-socialnetworkapi-mjb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbahl1670/ch18-socialNetworkAPI-mjb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbahl1670/ch18-socialNetworkAPI-mjb/issues"
+  },
+  "homepage": "https://github.com/mbahl1670/ch18-socialNetworkAPI-mjb#readme",
+  "dependencies": {
+    "mongoose": "^6.2.1"
+  }
+}
