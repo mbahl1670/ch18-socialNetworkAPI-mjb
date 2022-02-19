@@ -9,7 +9,7 @@ const thoughtController = {
             path: 'reactions',
             select: '-__v'
         })
-        .select('__v')
+        .select('-__v')
         .then(dbThoughtData => res.json(dbThoughtData))
         .catch(err => res.json(err));
 
@@ -22,7 +22,7 @@ const thoughtController = {
             path: 'reactions',
             select: '-__v'
         })
-        .select('__v')
+        .select('-__v')
         .then(dbThoughtData => {
             if(!dbThoughtData) {
                 res.status(404).json({ message: 'No thought by that ID!' });
