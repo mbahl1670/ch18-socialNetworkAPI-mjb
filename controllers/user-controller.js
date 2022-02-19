@@ -7,7 +7,11 @@ const userController = {
           .populate({
               path: 'friends',
               select: '-__v'
-          })  
+          }) 
+          .populate({
+              path: 'thoughts',
+              select: '-__v'
+          })
           .select('-__v')
           .then(dbUserData => res.json(dbUserData))
           .catch(err => {
@@ -23,6 +27,10 @@ const userController = {
               path: 'friends',
               select: '-__v'
           })
+          .populate({
+            path: 'thoughts',
+            select: '-__v'
+        })
           .select('-__v')
           .then(dbUserData => {
               if (!dbUserData) {
