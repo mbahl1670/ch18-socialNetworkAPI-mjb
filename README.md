@@ -28,7 +28,7 @@ THEN the data for each of these routes is displayed in a formatted JSON
 THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
 
 ## Walkthrough Video
-
+https://drive.google.com/file/d/16rStI-DeGFHpKhaP3U1WOdeFS7GGf1CL/view
 
 ## Screenshot of the Application
 ![Screenshot (61)](https://user-images.githubusercontent.com/90292697/154813329-bb0804a0-d827-41a6-86db-b2b043822838.png)
